@@ -1,0 +1,106 @@
+body{
+    background-color: white;
+}
+/* nav */
+.navbar {
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navbar-brand, .navbar-nav .nav-item {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.nav-item{
+    display: flex;
+}
+
+@media (max-width: 767.98px) {
+    .navbar-nav {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .navbar-collapse {
+        width: 100%;
+    }
+}
+/*user */
+.header_link{
+    color: black;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-right:15px;
+    font-size: 20px;
+}
+.header_user_image{
+    width:30px;
+    height:30px;
+    margin-right:20px;
+    border-radius:50%;
+}
+a.header_link {
+    text-decoration: none;
+    color:green;
+}
+a.header_link:hover {
+    text-decoration: none;
+    color:black;
+}
+/* user */
+/* nav */
+
+/* form */
+/* error */
+div.error {
+    color: red;
+    font-weight: 600;
+    margin-top: 6px;
+}
+
+.alert {
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #d4edda;
+    border: 1px solid #0dc337;
+    color: #155724;
+    border-radius: 5px;
+    position: relative;
+}
+
+.alert-error {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}
+/* error */
+/* eye */
+.field-icon {
+    float: right;
+    margin-left: -25px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+.form-group {
+    position: relative;
+    margin-bottom: 1.5em;
+}
+.error {
+    color: red;
+}
+/* eye */
+.form_div{
+    margin-right:auto;
+    margin-left:auto;
+    width:500px;
+}
+/* form */
